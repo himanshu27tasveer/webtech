@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Course Registration Form</title>
+</head>
+<body style="background-color: #292929;color: #fcfcfc">
+	<h1 style="text-align: center;padding-top: 40px;">
+		Course Registration Form
+	</h1>
+	<div id="forms">
+		<form action="#" method="get" accept-charset="utf-8">
+			<fieldset>
+				<legend style="color: skyblue;font-size: 24px">Register</legend>
+
+				<div id="formdiv">
+					<label>Name</label>
+					<input type="text" name="name" placeholder="Enter your name">
+					<br>
+					<br>
+					<label>Registration Number</label>
+					<input type="number" name="regno">
+					<br>
+					<br>
+					<label>Roll No.</label>
+					<input type="number" name="rollno">
+					<br>
+					<br>
+					<label for="courses">Choose Courses:</label>
+					<select name="courses"  multiple>
+				 	 <option value="itc">ITC</option>
+				 	 <option value="web">Web Tech.</option>
+				 	 <option value="dn">Data Networks</option>
+				 	 <option value="dsp">DSP</option>
+				 	 <option value="greentech">Green Tech.</option>
+				 	 <option value="ertos">ERTOS</option>
+					</select> 
+					<br><br>
+					<input type="submit" name="Submit" value="Submit">
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<<style type="text/css">
+		#forms{
+			height: 100vh;
+			margin-top: 10vh;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-content: center;
+		}
+		form{
+			text-align: center;
+			width: 80%;
+			height: 80vh;
+		}
+		input{
+			padding: 10px;
+			width: 50%;
+		}
+		.formdiv{
+			padding: 10px;
+		}
+	</style>
+</body>
+</html>
